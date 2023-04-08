@@ -17,6 +17,7 @@ For the task of Facial Emotion Recongition, a simple Convolutional Neural Networ
 ## Implementation
 To run the code, ensure that Flask is installed on your system. Flask can be installed by simply running the following command:
   !pip install -U Flask
+
 Once Flask is installed, simply run app.py, then navigate to localhost:8000 and provide webcam access.
 
 ## Results and Discussion
