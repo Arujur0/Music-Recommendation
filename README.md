@@ -35,4 +35,4 @@ The music recommendation section was done by first scrapping songs from spotify.
 The music recommendation system was also evaluated on accuracy. Using the K-Nearest Neighbours algorithm it produced an accuracy of 62.24% at k=44.  the graph of accuracies for each value of k is generated below:
 ![Graph](output.png) 
 The results produced are detailed below:
-![Emotion Induced Recommendation](Untitled Diagram.drawio (9).png)
+![Emotion Induced Recommendation](fer_mr_result.png)
