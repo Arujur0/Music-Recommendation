@@ -14,7 +14,7 @@ For the task of music recommendation, playlists were scrapped from the [Spotify 
 For the task of Facial Emotion Recongition, a simple Convolutional Neural Network is constructed. The convolutional Neural Networks consists of six convolutional blocks. Each block is made up of a sequence of a convolutional layer, followed by Batchnorm and ReLU activation function. There is also a three layer MLP that makes up the classification section of the neural network. The architecture is shown in the figure below: ![Model Summary](layers.png)
 
 
-##Implementation
+## Implementation
 To run the code, ensure that Flask is installed on your system. Flask can be installed by simply running the following command:
   !pip install -U Flask
 Once Flask is installed, simply run app.py, then navigate to localhost:8000 and provide webcam access.
