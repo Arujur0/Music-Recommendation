@@ -14,6 +14,11 @@ For the task of music recommendation, playlists were scrapped from the [Spotify 
 For the task of Facial Emotion Recongition, a simple Convolutional Neural Network is constructed. The convolutional Neural Networks consists of six convolutional blocks. Each block is made up of a sequence of a convolutional layer, followed by Batchnorm and ReLU activation function. There is also a three layer MLP that makes up the classification section of the neural network. The architecture is shown in the figure below: ![Model Summary](layers.png)
 
 
+##Implementation
+To run the code, ensure that Flask is installed on your system. Flask can be installed by simply running the following command:
+  !pip install -U Flask
+Once Flask is installed, simply run app.py, then navigate to localhost:8000 and provide webcam access.
+
 ## Results and Discussion
 Facial Emotion Recognition
 The results of the FER system are a class label that best represents the user's current emotional state. An interactive User Interface is generated using Flask, basic HTML/CSS and JavaScript. The UI presents an option for user's to give access to their camera and for the model to detect the bounding box of their face and generate their emotional state frame by frame in real time. Sample predictions made by the model are below:
