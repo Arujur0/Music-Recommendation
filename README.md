@@ -11,13 +11,12 @@ The dataset used for the facial emotion Recognition task is the [FER2013](https:
 For the task of music recommendation, playlists were scrapped from the [Spotify Web-API](https://developer.spotify.com/documentation/web-api/).
 
 ## Architecture
-For the task of Facial Emotion Recongition, a Siamese Xception network with a contrastive loss is utilized. Xception is an extension of the Inception architecture and was designed to improve the efficiency and accuracy of CNNs. Xception replaces the standard Inception modules with depthwise separable convolutions, which separate the spatial filtering and channel-wise filtering operations, resulting in a more efficient use of parameters and faster training times. <br>
-Siamese neural networks are a type of neural network architecture that is designed to compare two or more inputs and determine their similarity or dissimilarity. For this specific task of image classification siamese networks were used to identify the complex similarities between emotions.
+For the task of Facial Emotion Recongition, a simple Convolutional Neural Network is constructed. The convolutional Neural Networks consists of six convolutional blocks. Each block is made up of a sequence of a convolutional layer, followed by Batchnorm and ReLU activation function. There is also a three layer MLP that makes up the classification section of the neural network. The architecture is shown in ![Model Summary](layers.png)
 
 
-## Preliminary Results
+## Results and Discussion
 Facial Emotion Recognition
 
-![Happy Class](real_time_op.png)
+![Happy Class](test_1.png)
 
-![Neutral Class](neutral_real_time.png)
+![Neutral Class](neutrals.png)
