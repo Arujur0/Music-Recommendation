@@ -22,8 +22,12 @@ The results of the FER system are a class label that best represents the user's 
 ![Neutral Class](neutrals.png)
 
 The model was evaluated on metrics such as Accuracy, Precision and Recall. A heatmap of the confusion matrix was also generated for better understanding of what the model is able to predict efficiently. The FER model achieves an accuracy of 62.17%, a precision of 62.2% and a recall of 61.15%. The heatmaps are shown below:
-![Confusion Matrix](conf_mat.png | width=50px) ![Heatmap](conf.png | width=50px)
-The heatmap on the left details the predicted vs ground truth labels for the emotion detection, whereas the heatmap on the right details the predicted vs ground truth labels for the music recommendation system.
+![Confusion Matrix](conf_mat.png) 
+
+The heatmap above details the predicted vs ground truth labels for the emotion detection, whereas the heatmap below details the predicted vs ground truth labels for the music recommendation system.
+
+![Heatmap](conf.png)
+
 As the number of samples for the disgusted class label is very low and because it is very difficult to sample music that accurately represents songs that induce a complex emotion like disgust, the disgust class was combined with anger to form a single class.
 
 ### Music Recommmendation System
